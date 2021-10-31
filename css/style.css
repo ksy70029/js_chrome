@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.hidden {
+	display: none;
+}
+#quote {
+	text-align: center;
+}
+.bg_img {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center, center;
+}
+#clock {
+	font-size: 8em;
+	margin-top: 80px;
+}
+form {
+	margin-bottom: 16px;
+}
+form input {
+	border: none;
+	background-color: rgb(235, 235, 245, 0.9);
+	padding: 10px 5px;
+}
+#login-form input {
+	width: 200px;
+	height: 30px;
+}
+#login-form button {
+	width: 80px;
+	height: 30px;
+	border: none;
+	background-color: salmon;
+}
+#todo-form input {
+	width: 284.5px;
+	height: 30px;
+}
+#todo-list {
+	margin: 20px;
+}
+#todo-list li {
+	margin: 10px 0;
+	font-size: 1.4em;
+	list-style: circle;
+	text-shadow: 1px 1px rgb(56, 56, 56, 0.5);
+}
+#todo-list li span {
+	margin-right: 10px;
+}
+#todo-list li button {
+	width: 30px;
+	text-align: center;
+	padding: 3px;
+	background-color: antiquewhite;
+	border: none;
+	border-radius: 3px;
+	float: right;
+}
+#quote span {
+	margin-bottom: 12px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 400;
+}
+#weather {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+#greeting {
+	margin-bottom: 20px;
+}
